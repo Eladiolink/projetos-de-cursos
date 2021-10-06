@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #e6e6e6;
+    position: relative;
+}
+
+#area-cabecalho {
+    background-color: orange;
+    padding: 15px;
+    text-align: center;
+    height: 125px;
+    top: 40px;
+}
+
+#area-logo {
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    margin-top: -18px;
+}
+
+#area-menu {
+    position: relative;
+    top: 43px;
+    padding: 10px;
+    
+}
+
+.navegacao {
+    background: orange;
+    width: auto;
+    height: 140px;
+}
+
+.links {
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #1e053d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17.5px; 
+    font-weight: bold;
+}
+
+.branco {
+    color: white;
+    font-size: 45px;
+}
+
+.conteudo1 {
+    background: yellow;
+    padding-top: 14p;
+}
+
+.area-noticia {
+    position: relative;
+    background: #FFF;
+    margin-top: 20px;
+    margin-left: 208px;
+    padding: 20px;
+    width: 660px;
+    border-radius: 13px;
+
+}
+
+.links {
+    color: chartreuse;
+}
+
+.footer {
+    position: relative;
+    background: #FFF;
+    margin-top: 20px;
+    margin-left: 208px;
+    width: 660px;
+    border-radius: 13px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+    
+}
+
+.imagem {
+    border-radius: 10px;
+}
+
+
+
