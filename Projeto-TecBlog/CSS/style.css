@@ -5,7 +5,7 @@
 
 body {
     font-size: 1em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Sitka Text Semibold;
     background: #e6e6e6;
     position: relative;
 }
@@ -23,12 +23,19 @@ body {
     top: 20px;
     font-size: 25px;
     margin-top: -18px;
+    padding-left: 280px;
 }
 
 #area-menu {
     position: relative;
     top: 43px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+   
+    width: 700px;
+    margin-left: 220px;
     
 }
 
@@ -41,18 +48,22 @@ body {
 .links {
     padding: 10px;
     text-decoration: none;
+    
 }
 
-a:link, a:visited {
+a:link, a:visited{
+    
     color: #1e053d;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 17.5px; 
     font-weight: bold;
+    text-decoration: none;
+    
 }
 
 .branco {
     color: white;
-    font-size: 45px;
+    font-size: 47px;
+    
 }
 
 .conteudo1 {
@@ -64,7 +75,7 @@ a:link, a:visited {
     position: relative;
     background: #FFF;
     margin-top: 20px;
-    margin-left: 208px;
+    margin-left: 250px;
     padding: 20px;
     width: 660px;
     border-radius: 13px;
@@ -73,13 +84,15 @@ a:link, a:visited {
 
 .links {
     color: chartreuse;
+    font-size: 17.5px;
+
 }
 
 .footer {
     position: relative;
     background: #FFF;
     margin-top: 20px;
-    margin-left: 208px;
+    margin-left: 250px;
     width: 660px;
     border-radius: 13px;
     padding-top: 20px;
@@ -92,6 +105,58 @@ a:link, a:visited {
 
 .imagem {
     border-radius: 10px;
+}
+
+.tec {
+    font: bold;
+}
+
+.paragrafo {
+    display: inline;
+}
+
+.recentes {
+    background: #FFF;
+    width: 240px;
+    position: relative;
+    float: right;
+    margin-top: 175px;
+    margin-right: 295px;
+    border-radius: 13px;
+    height: 474px;
+} /*codigo para tela de notebook */
+
+/*.recentes {
+    background: #FFF;
+    width: 240px;
+    position: relative;
+    float: right;
+    margin-top: 175px;
+    margin-right: 135px;
+    border-radius: 13px;
+    height: 470px;
+}*/
+
+h3 {
+    color: black;
+    width: 170px;
+    margin-left: 28px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background: rgb(139, 173, 247);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.mrecentes {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.leia-mais {
+    font-size: 12px;
+    padding: 10px;
+    
 }
 
 
