@@ -105,6 +105,8 @@ a:link, a:visited{
 
 .imagem {
     border-radius: 10px;
+    width: 500px;
+    padding-left: 77px;
 }
 
 .tec {
