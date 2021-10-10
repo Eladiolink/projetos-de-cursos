@@ -1,3 +1,8 @@
+/*Ordem das tags formatadas: 
+1- As tags diretas
+2- Id's
+3- Classes*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +13,25 @@ body {
     font-family: Sitka Text Semibold;
     background: #e6e6e6;
     position: relative;
+}
+
+a:link, a:visited{
+    
+    color: #1e053d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+h3 {
+    color: black;
+    width: 170px;
+    margin-left: 28px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background: rgb(139, 173, 247);
+    padding: 5px;
+    border-radius: 4px;
 }
 
 #area-cabecalho {
@@ -39,39 +63,28 @@ body {
     
 }
 
-.navegacao {
+/*.navegacao {
     background: orange;
     width: auto;
     height: 140px;
-}
+}*/
 
-.links {
+.conteudo-redirecionador {
     padding: 10px;
     text-decoration: none;
-    
+    color: chartreuse;
+    font-size: 17.5px;
 }
 
-a:link, a:visited{
-    
-    color: #1e053d;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    text-decoration: none;
-    
-}
 
-.branco {
+
+.segunda-parte-logo {
     color: white;
     font-size: 47px;
     
 }
 
-.conteudo1 {
-    background: yellow;
-    padding-top: 14p;
-}
-
-.area-noticia {
+.area-noticia-antes {
     position: relative;
     background: #FFF;
     margin-top: 20px;
@@ -82,13 +95,7 @@ a:link, a:visited{
 
 }
 
-.links {
-    color: chartreuse;
-    font-size: 17.5px;
-
-}
-
-.footer {
+.rodape {
     position: relative;
     background: #FFF;
     margin-top: 20px;
@@ -103,21 +110,21 @@ a:link, a:visited{
     
 }
 
-.imagem {
+.imagens-noticias {
     border-radius: 10px;
     width: 500px;
     padding-left: 77px;
 }
 
-.tec {
+.primeira-parte-logo {
     font: bold;
 }
 
-.paragrafo {
+.conteudos-secundarios {
     display: inline;
 }
 
-.recentes {
+.barra-noticias-recentes {
     background: #FFF;
     width: 240px;
     position: relative;
@@ -139,23 +146,14 @@ a:link, a:visited{
     height: 470px;
 }*/
 
-h3 {
-    color: black;
-    width: 170px;
-    margin-left: 28px;
-    margin-top: 20px;
-    border: 1px solid gray;
-    background: rgb(139, 173, 247);
-    padding: 5px;
-    border-radius: 4px;
-}
 
-.mrecentes {
+
+.titulos-noticias-recentes {
     font-size: 12px;
     padding: 10px;
 }
 
-.leia-mais {
+.links-leia-mais {
     font-size: 12px;
     padding: 10px;
     
